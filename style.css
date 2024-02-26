@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(165, 42, 42, 0.2);
+}
+
+/* TOP PORTION OF THE PAGE */
+
+.top {
+    background: url("https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg");
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;
+    box-shadow: 0 0 8px black;
+}
+
+input {
+    background-color: rgb(99, 18, 18, 1);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 70%;
+    height: 60px;
+    position: sticky;
+    top: 60px;
+    left: 15%;
+}
+
+/* MENU OF THE PAGE */
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.coffee {
+    height: 150px;
+    width: 150px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 8px 8px black;
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: -5px 10px 9px black;
+}
+
+.name {
+    margin-block: 15px;
+}
+
+/* DESCRIPTION PART OF THE PAGE */
+
+.description {
+    background-color: rgb(165, 42, 42, 0.3);
+    width: 90%;
+    margin: auto;
+    color: brown;
+    padding: 30px;
+    border-radius: 10px;
+    margin-block: 50px;
+    box-shadow: 0 0 8px brown;
+}
+
+.description p, .description ol li {
+    line-height: 20px;
+    margin-top: 15px;
+}
